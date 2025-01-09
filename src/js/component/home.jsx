@@ -11,7 +11,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 const Home = () => {
   return (
    
-    <div className="container-fluid">
+    <div className="container-fluid " >
       {/* NAVBAR */}
       {/* <div> */}
         <Navbar 
@@ -33,9 +33,9 @@ const Home = () => {
       </div>
 
       {/* CARDS */}
-      <div className="container-fluid text-center">
+      <div className="container text-center">
         <div className="row">
-          <div className="col">
+          <div className="col-sm-12 col-md-6 col-lg-3">
             <BootstrapCard
               title={"Card Title"}
               imageUrl={"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png" }
@@ -45,7 +45,7 @@ const Home = () => {
             />
           </div>
 
-          <div className="col">
+          <div className="col-sm-12 col-md-6 col-lg-3">
             <BootstrapCard
               title={"Card Title"}
               imageUrl={"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png"}
@@ -55,7 +55,7 @@ const Home = () => {
             />
           </div>
 
-          <div className="col">
+          <div className="col-sm-12 col-md-6 col-lg-3">
             <BootstrapCard
               title={"Card Title"}
               imageUrl={"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png"}
@@ -65,7 +65,7 @@ const Home = () => {
             />
           </div>
 
-          <div className="col">
+          <div className="col-sm-12 col-md-6 col-lg-3">
             <BootstrapCard
               title={"Card Title"}
               imageUrl={"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/800px-Bootstrap_logo.svg.png"}

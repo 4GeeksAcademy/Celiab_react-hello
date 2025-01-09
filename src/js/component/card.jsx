@@ -5,7 +5,7 @@ import PropType from "prop-types";
 const BootstrapCard = (props) => {
 	
 	return (
-		<div className="card my-2 mb-5">
+		<div className="card my-2 mb-5 ">
 			<img className="card-img-top" src={props.imageUrl} alt="Card image cap" />
 			<div className="card-body">
 				<h5 className="card-title">{props.title}</h5>
